@@ -4,8 +4,24 @@
   .body {
     grid-template-columns: repeat(2, 1fr);
   }
-  .page1 {
-    border-right: 5px black solid;
+  .page {
+    padding: 30px; padding-left: 15px; padding-right: 15px;
+    display: grid; grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 50px;
+  }
+  .faces {
+    display: grid; grid-template-rows: 250px 1fr;
+    margin: auto;
+    width: 200px; height: 200px;
+  }
+  .name {
+    color: white; text-align: center;
+    display: block;
+    margin-top: 15px;
+    font-size: 20px;
+  }
+  .list {
+    padding: 20px;
   }
   </style>
   <head>
@@ -25,8 +41,18 @@
             <div class="blank"></div>
       </div>
       <div class="body">
-        <div class="page1"><img src="sample pages.jpg" class="noo"></div>
-        <div class="page2"><img src="sample pages.jpg" class="noo"></div>
+        <div class="page">
+          <div class="list">
+            <img src="face/sample1_.png" class="faces">
+            <a href="#" class="name">진지한 용병단장</a>
+          </div>
+          <div class="list">
+            <img src="face/sample2_.png" class="faces">
+            <a href="#" class="name">까칠한 석궁사</a>
+          </div>
+        </div>
+        <div class="page">
+        </div>
       </div>
     </div>
   </body>
