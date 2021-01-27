@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(127, 64, 42);
+}
+a {
+  color: black; font-size: 30px;
+  text-decoration: none;
+}
+.container {
+  margin-top: 70px;
+  width:1300px; display: grid;
+  grid-template-columns: 1fr repeat(5, 130px) 1fr;
+  grid-template-rows: 75px;
+}
+.blank{
+  background-color: none;
+}
+.body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 500px;
+  width: 1300px;
+  background-color: gray;
+  border: 5px solid black;
+}
+.post-it {
+  margin-left: 15px; margin-right: 15px;
+  width: 100px; height: 75px;
+  background-color: rgb(244, 208, 122);
+}
+#active {
+  background-color: rgb(226, 196, 113);
+}
+.pages {
+  background-color: white;
+}
+.noo {
+  width: 100px; height: 100px;
+}
